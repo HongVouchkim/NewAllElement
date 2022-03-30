@@ -16,8 +16,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 		///set root view controller
 		guard let windowScene = (scene as? UIWindowScene) else { return }
 		self.window = UIWindow(windowScene: windowScene)
-		let storyboard = UIStoryboard(name: "CollectionViewController", bundle: nil)
-		let initialViewController = storyboard.instantiateViewController(withIdentifier: "CollectionViewController")
+		let storyboard = UIStoryboard(name: "MainViewController", bundle: nil)
+		let initialViewController = storyboard.instantiateViewController(withIdentifier: "MainViewController")
 				self.window?.rootViewController = initialViewController
 //		let storyboard = UIStoryboard(name: "testStoryboard", bundle: nil)
 //		let rootController = storyboard.instantiateViewController(withIdentifier: "testStoryboard")
