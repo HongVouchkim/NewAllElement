@@ -12,6 +12,7 @@ import UIKit
 enum AppColor: String, CaseIterable {
 	case pink = "#E47AB7"
 	case mainColor = "#7FC4BD"
+	case colorBlue = "#1800FF"
 	
 	var getColor: UIColor {
 		return UIColor(self.rawValue)

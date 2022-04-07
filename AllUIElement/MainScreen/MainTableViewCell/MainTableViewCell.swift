@@ -13,7 +13,12 @@ class MainTableViewCell: UITableViewCell {
 	@IBOutlet weak var labelTitle: UILabel!
 	override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+		commitUI()
     }
-    
+	
+	private func commitUI() {
+		myView.layer.cornerRadius = 6.0
+		myView.backgroundColor = AppColor.colorBlue.getColor
+		labelTitle.textColor = .white
+	}
 }
