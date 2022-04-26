@@ -22,7 +22,7 @@
 		C96287FA27F2AE4C00B1D850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96287F927F2AE4C00B1D850 /* Assets.xcassets */; };
 		C96287FD27F2AE4C00B1D850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96287FB27F2AE4C00B1D850 /* LaunchScreen.storyboard */; };
 		C962880B27F2B8A200B1D850 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962880A27F2B8A200B1D850 /* AppColor.swift */; };
-		C962880D27F310F600B1D850 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C962880C27F310F600B1D850 /* Extension.swift */; };
+		C962880D27F310F600B1D850 /* Ex+swift in Sources */ = {isa = PBXBuildFile; fileRef = C962880C27F310F600B1D850 /* Ex+swift */; };
 		C9FAA2D527FEBE390064139A /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FAA2D427FEBE390064139A /* MapKitViewController.swift */; };
 		C9FAA2D727FEBE540064139A /* MapKitViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9FAA2D627FEBE540064139A /* MapKitViewController.storyboard */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,7 @@
 		C96287FC27F2AE4C00B1D850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96287FE27F2AE4C00B1D850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C962880A27F2B8A200B1D850 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
-		C962880C27F310F600B1D850 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C962880C27F310F600B1D850 /* Ex+swift */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Ex+swift"; sourceTree = "<group>"; };
 		C9FAA2D427FEBE390064139A /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
 		C9FAA2D627FEBE540064139A /* MapKitViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapKitViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,7 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				C962880A27F2B8A200B1D850 /* AppColor.swift */,
-				C962880C27F310F600B1D850 /* Extension.swift */,
+				C962880C27F310F600B1D850 /* Ex+swift */,
 			);
 			path = "Enum&Ex";
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 				C944579427F460DA00ACECE3 /* MainTableViewCell.swift in Sources */,
 				C96287F127F2AE4A00B1D850 /* AppDelegate.swift in Sources */,
 				C944578C27F425B100ACECE3 /* Observers.swift in Sources */,
-				C962880D27F310F600B1D850 /* Extension.swift in Sources */,
+				C962880D27F310F600B1D850 /* Ex+swift in Sources */,
 				C902DEA527FA99E000BB0D60 /* GradientColorViewController.swift in Sources */,
 				C9FAA2D527FEBE390064139A /* MapKitViewController.swift in Sources */,
 				C944578A27F41F7500ACECE3 /* CalulationViewModel.swift in Sources */,

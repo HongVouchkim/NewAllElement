@@ -31,3 +31,9 @@ extension UICollectionViewCell {
 	}
 }
 
+//MARK: - Extension UIView
+extension UIView {
+	func getGradient() {
+		<#function body#>
+	}
+}
