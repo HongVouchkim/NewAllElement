@@ -8,20 +8,35 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Gradient Color View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GradientColorViewController" id="Y6W-OH-hqX" customClass="GradientColorViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o2Q-zr-450">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="o2Q-zr-450" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="FoJ-3d-Z37"/>
+                            <constraint firstItem="o2Q-zr-450" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ost-gt-fsC"/>
+                            <constraint firstItem="o2Q-zr-450" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="owY-Wx-R21"/>
+                            <constraint firstAttribute="bottom" secondItem="o2Q-zr-450" secondAttribute="bottom" id="w6C-wh-lUz"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="myView" destination="o2Q-zr-450" id="oqc-N4-pbn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12" y="82"/>
+            <point key="canvasLocation" x="-13.043478260869566" y="81.696428571428569"/>
         </scene>
     </scenes>
     <resources>

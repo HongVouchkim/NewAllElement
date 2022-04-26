@@ -87,9 +87,6 @@
 				C944578E27F4604700ACECE3 /* MainViewController.swift */,
 				C944579027F4605B00ACECE3 /* MainViewController.storyboard */,
 				C9FAA2D227FEBC1F0064139A /* MainTableViewCell */,
-				C944578427F41ECE00ACECE3 /* Observabler&VM&VC */,
-				C902DEA327FA997D00BB0D60 /* UIGradientColor */,
-				C9FAA2D327FEBDF90064139A /* MapKit */,
 			);
 			path = MainScreen;
 			sourceTree = "<group>";
@@ -117,6 +114,9 @@
 				C96287F227F2AE4A00B1D850 /* SceneDelegate.swift */,
 				C962880927F2B87F00B1D850 /* Enum&Ex */,
 				C944578D27F45FF000ACECE3 /* MainScreen */,
+				C9FAA2D327FEBDF90064139A /* MapKit */,
+				C902DEA327FA997D00BB0D60 /* UIGradientColor */,
+				C944578427F41ECE00ACECE3 /* Observabler&VM&VC */,
 				C96287F927F2AE4C00B1D850 /* Assets.xcassets */,
 				C96287FB27F2AE4C00B1D850 /* LaunchScreen.storyboard */,
 				C96287FE27F2AE4C00B1D850 /* Info.plist */,
